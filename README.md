@@ -45,11 +45,10 @@ polymail-ai/
 ├── .env                        # API keys and environment vars (excluded from Git)
 ├── requirements.txt            # All dependencies
 └── README.md                   # You are here!
-
+ ``` 
 ## ⚙️ **Setup Instructions**
 
 ### Step 1: Clone the Repository
-```bash
 git clone https://github.com/your-username/polymail-ai.git
 cd polymail-ai
 
@@ -59,7 +58,7 @@ bash
 
 python -m venv venv
 venv\Scripts\activate  # For Windows
-# source venv/bin/activate  # For Mac/Linux
+##### source venv/bin/activate  ##### For Mac/Linux
 
 
 ### Step 3: Install Dependencies
@@ -71,10 +70,11 @@ pip install -r requirements.txt
 
 
 ### STEP-4:
-########## 🔐 Environment Variable (.env)################
+### 🔐 Environment Variable (.env)
+
 This project uses an `.env` file to load the Gemini API key.
 
-**Important:**  
+ ## **Important:**  
 The `.env` file included in this repository **does not contain the actual API key**.  
 For security reasons, the key is shared separately in the submitted document.
 
@@ -95,5 +95,5 @@ streamlit run app.py
 
 
 
-🛡️ Disclaimer
+## 🛡️ Disclaimer
 This project is intended for educational/demo purposes. Please avoid sharing sensitive data with public APIs.
